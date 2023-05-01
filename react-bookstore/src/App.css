@@ -1,0 +1,71 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.searchBar {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.booksTable {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.bookImage {
+  width: 200px;
+  height: auto;
+}
+
+.detailContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.detailImage {
+  width: 300px;
+  height: auto;
+}
+
+.backButton {
+  margin-top: 20px;
+}
+
+.MuiPagination-root {
+  margin-top: 20px;
+}
+
+.MuiTablePagination-toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MuiTableCell-head {
+  font-weight: bold;
+}
+
+.MuiTablePagination-caption {
+  font-size: 0.9rem;
+}
+
+.MuiTablePagination-select {
+  font-size: 0.9rem;
+}

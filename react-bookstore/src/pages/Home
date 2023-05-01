@@ -1,0 +1,30 @@
+import React, { useState } from 'react';
+import Header from '../components/Header';
+import SearchBar from '../components/SearchBar';
+import BookList from '../components/BookList';
+import booksData from '../assets/books.json';
+
+const Home = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [filteredBooks, setFilteredBooks] = useState(booksData);
+
+  const handleSearch = (searchTerm) => {
+    const filteredBooks = booksData.filter(
+      (book) =>
+        book.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        book.author.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
+    setFilteredBooks(filteredBooks);
+  };
+
+  return (
+    <div className="home">
+      <Header />
+      <SearchBar searchTerm={searchTerm} setSearchTerm={handleSearch} />
+      <BookList books={filteredBooks} />
+    </div>
+  );
+};
+
+export default Home;

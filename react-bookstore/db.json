@@ -1,0 +1,28 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "publicationDate": "July 11, 1960",
+      "genre": "Fiction",
+      "description": "A Pulitzer Prize-winning novel set in the Depression-era South and narrated by young Jean Louise Finch, who goes by the nickname Scout."
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "publicationDate": "June 8, 1949",
+      "genre": "Fiction",
+      "description": "A dystopian novel set in a totalitarian society, where the government controls every aspect of citizens' lives and independent thought is forbidden."
+    },
+    {
+      "id": 3,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "publicationDate": "January 28, 1813",
+      "genre": "Romance",
+      "description": "A classic novel set in early 19th century England, following the lives of the Bennett family and their relationships with the wealthy Mr. Darcy and his friend Mr. Bingley."
+    }
+  ]
+}
